@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section,
+.social{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    background-color: rgba(36, 16, 17, 0.534);
+}
+
+header{
+    padding: 16px 0;
+}
+
+header nav li a{
+    text-decoration: none;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+    }
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container{
+    align-items: center;
+}
+
+.shop-front{
+    margin-right: 32px;
+}
+
+#shop-front{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(3, 18, 41);
+    color: white;
+}
+
+section .container img{
+    height: 720px;
+    display: inline;
+    margin-right: 16px;
+}
+
+.contact-methods{
+    display: flex;
+}
+
+section .contact-methods{
+    background-color: rgb(9, 9, 43);
+    color: yellowgreen;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color: aqua;
+    color: #a38e8e;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: blueviolet;
+}
+
+input:focus, textarea:focus{
+    outline-color: black;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.social{
+    background-color: rgba(36, 16, 17, 0.534);
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;}
+
+.social-links li a{
+    text-decoration: none;
+    justify-content: center;
+}
